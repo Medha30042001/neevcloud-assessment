@@ -6,7 +6,7 @@ A lightweight tool I built to simplify shared expense tracking among groups.
 
 ## 🚀 Live Demo
 👉 [https://your-vercel-link.vercel.app](https://neevcloud-assessment.vercel.app/)
-(video demo : https://drive.google.com/file/d/1w6fqln4P6RkEuEvYKHodAaGXaju5CGFj/view?usp=sharing)
+-(video demo : https://drive.google.com/file/d/1w6fqln4P6RkEuEvYKHodAaGXaju5CGFj/view?usp=sharing)
 ---
 
 ## ✨ Features
