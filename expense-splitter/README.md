@@ -1,16 +1,95 @@
-# React + Vite
+# 💸 Smart Expense Splitter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight tool I built to simplify shared expense tracking among groups.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+👉 https://your-vercel-link.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Create a group by adding members
+- Add shared expenses
+- Automatically split expenses equally
+- Real-time balance calculation
+- View who owes whom
+- Simple and user-friendly UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 How It Works
+
+Each expense stores:
+- Amount
+- Person who paid
+- Participants involved
+
+The app calculates:
+- Individual balances
+- Final settlements using a simplified debt algorithm
+
+---
+
+## 🏗️ Architecture
+
+Frontend-only application built using React (Vite)
+
+Structure:
+src/
+ ├── components/
+ │    ├── GroupForm.jsx
+ │    ├── ExpenseForm.jsx
+ │    ├── Summary.jsx
+ ├── utils.js
+ ├── App.jsx
+
+---
+
+## ⚙️ Setup Instructions
+
+Clone the repository:
+git clone https://github.com/your-username/neevcloud-assessment.git
+cd expense-splitter
+
+Install dependencies:
+npm install
+
+Run locally:
+npm run dev
+
+---
+
+## 📊 Core Logic
+
+Balance Calculation:
+Each participant shares expenses equally and balances are updated accordingly.
+
+Debt Simplification:
+Converts balances into minimal transactions like:
+A pays B ₹200
+
+---
+
+## 🎯 Future Improvements
+
+- Custom split
+- Persistent storage
+- Expense categories
+- AI-based insights
+
+---
+
+## 📌 Submission Details
+
+- GitHub Repository
+- Deployed on Vercel
+- Demo Video included
+
+---
+
+## 🙌 Author
+
+Medha Adepu
